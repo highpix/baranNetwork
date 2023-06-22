@@ -12,7 +12,7 @@
 
 <h2>Пользовательский интерфейс:</h2>
 
-<img src="https://sun4-18.userapi.com/impg/Klz1e1vgIamtpvi3gBQ9ZuSeD_LBDc5hTBqq3g/cNaGDDj0d7k.jpg?size=1280x723&amp;quality=96&amp;sign=ec3a4e83930579372a78b2f4102de818&amp;type=album" alt="project-screenshot" width="1280" height="720/">
+<img src="https://sun4-18.userapi.com/impg/Klz1e1vgIamtpvi3gBQ9ZuSeD_LBDc5hTBqq3g/cNaGDDj0d7k.jpg?size=1280x723&amp;quality=96&amp;sign=ec3a4e83930579372a78b2f4102de818&amp;type=album" alt="project-screenshot" width="1100" height="580">
 
   
   
