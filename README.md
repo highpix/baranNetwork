@@ -27,7 +27,7 @@
 
 ```
 Request: /api/request?data=text&token=test-key | text - текст запроса | token - токен авторизации
-200 Response: {"answer": "generatedText"}
+200 Response: generatedText
 401 Response: {"error": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
 ```
