@@ -25,6 +25,7 @@
 
 <h2>🛠️ API Endpoints</h2>
 | Отправка запроса в BaranGPT =)
+
 ```
 Request: /api/request?data=text&token=test-key | text - текст запроса | token - токен авторизации
 200 Response: {"response": "Generated text\nNew line"}
