@@ -24,7 +24,7 @@
 *   Multi-Language концепт - нейросеть поддерживает все языки мира
 
 <h2>🛠️ API Endpoints</h2>
-
+| Отправка запроса в BaranGPT =)
 ```
 Request: /api/request?data=text&token=test-key | text - текст запроса | token - токен авторизации
 200 Response: {"response": "Generated text\nNew line"}
@@ -32,14 +32,14 @@ Request: /api/request?data=text&token=test-key | text - текст запрос�
 401 Response: {"error": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
 ```
-|
+| Авторизация
 ```
 Request: /api/auth?token=test-key | token - токен авторизации
 200 Response: {"status": "Authorized"}
 400 Response: {"error": "Missing parameters"}
 401 Response: {"status": "Unauthorized"}
 ```
-|
+| Очистка контекста
 ```
 Request: /api/clearContext?token=test-key | token - токен авторизации
 200 Response: {"status": "Context cleaned"}
@@ -47,7 +47,7 @@ Request: /api/clearContext?token=test-key | token - токен авториза�
 401 Response: {"error": "Unauthorized"}
 500 Response: {"status": "Context cleaning failed"}
 ```
-|
+| Получение истории чата
 ```
 Request: /api/getChatHistory?token=test-key | token - токен авторизации
 200 Response: 
