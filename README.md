@@ -28,7 +28,7 @@
 ```
 Request: /api/request?data=text&token=test-key | text - текст запроса | token - токен авторизации
 200 Response: generatedText
-400 Response: {"error": "Missing  parameters"}
+400 Response: {"error": "Missing parameters"}
 401 Response: {"status": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
 ```
@@ -36,14 +36,14 @@ Request: /api/request?data=text&token=test-key | text - текст запрос�
 ```
 Request: /api/auth?token=test-key | token - токен авторизации
 200 Response: {"status": "Authorized"}
-400 Response: {"error": "Missing  parameters"}
+400 Response: {"error": "Missing parameters"}
 401 Response: {"status": "Unauthorized"}
 ```
 |
 ```
 Request: api/clearContext?token=test-key | token - токен авторизации
 200 Response: {"status": "Context cleaned"}
-400 Response: {"error": "Missing  parameters"}
+400 Response: {"error": "Missing parameters"}
 401 Response: {"status": "Unauthorized"}
 500 Response: {"status": "Context cleaning failed"}
 ```
