@@ -8,7 +8,7 @@
 
 <h2>🚀 Демо</h2>
 
-[\[vitalikparkur.pro\]]([vitalikparkur.pro])
+[\[vitalikparkur.pro\]](vitalikparkur.pro)
 
 <h2>Пользовательский интерфейс:</h2>
 
@@ -29,7 +29,7 @@
 Request: /api/request?data=text&token=test-key | text - текст запроса | token - токен авторизации
 200 Response: generatedText
 400 Response: {"error": "Missing parameters"}
-401 Response: {"status": "Unauthorized"}
+401 Response: {"error": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
 ```
 |
@@ -41,9 +41,23 @@ Request: /api/auth?token=test-key | token - токен авторизации
 ```
 |
 ```
-Request: api/clearContext?token=test-key | token - токен авторизации
+Request: /api/clearContext?token=test-key | token - токен авторизации
 200 Response: {"status": "Context cleaned"}
 400 Response: {"error": "Missing parameters"}
-401 Response: {"status": "Unauthorized"}
+401 Response: {"error": "Unauthorized"}
 500 Response: {"status": "Context cleaning failed"}
+```
+|
+```
+Request: /api/getChatHistory?token=test-key | token - токен авторизации
+200 Response: 
+{
+  "user-messageId": "Привет"
+  "bot-messageId": "Фарту чифирной, как житуха?"
+  "user-messageId": "Липа не трещит караси не клюют"
+  "bot-messageId": "Возможно, в вашем вопросе имеется в виду поговорка или пословица, которая может использоваться в различных ситуациях.\nОднако, такая фраза не имеет прямого связанного значения в реальности или научном контексте. Поэтому, я могу предположить возможные значения или объяснения, но они будут только гипотетическими:"
+}
+400 Response: {"error": "Missing parameters"}
+401 Response: {"status": "Unauthorized"}
+500 Response: {"error": "Server not responding or busy"}
 ```
