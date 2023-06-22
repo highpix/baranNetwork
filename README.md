@@ -50,7 +50,7 @@ Request: /api/clearContext?token=test-key | token - токен авториза�
 ```
 | Получение истории чата
 ```
-Request: /api/getChatHistory?token=test-key | token - токен авторизации
+Request: /api/chatHistory?token=test-key | token - токен авторизации
 200 Response: 
 {
   "user-messageId": "Привет",
@@ -61,4 +61,11 @@ Request: /api/getChatHistory?token=test-key | token - токен авториз�
 400 Response: {"error": "Missing parameters"}
 401 Response: {"error": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
+```
+| Получение статуса доступности сервера
+Request: /api/chatHistory?token=test-key | token - токен авторизации
+200 Response: {"server": "available"}
+400 Response: {"error": "Missing parameters"}
+401 Response: {"error": "Unauthorized"}
+500 Response: {"error": "Server is offline"}
 ```
