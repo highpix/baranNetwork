@@ -8,7 +8,7 @@
 
 <h2>🚀 Демо</h2>
 
-[\[vitalikparkur.pro\]](vitalikparkur.pro)
+[\[vitalikparkur.pro\]](https://vitalikparkur.pro)
 
 <h2>Пользовательский интерфейс:</h2>
 
