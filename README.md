@@ -64,7 +64,7 @@ Request: /api/chatHistory?token=test-key | token - токен авторизац
 ```
 | Получение статуса доступности сервера/
 ```
-Request: /api/chatHistory?token=test-key | token - токен авторизации
+Request: /api/serverStatus?token=test-key | token - токен авторизации
 200 Response: {"server": "Available"}
 400 Response: {"error": "Missing parameters"}
 401 Response: {"error": "Unauthorized"}
