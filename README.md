@@ -62,7 +62,7 @@ Request: /api/chatHistory?token=test-key | token - токен авторизац
 401 Response: {"error": "Unauthorized"}
 500 Response: {"error": "Server not responding or busy"}
 ```
-| Получение статуса доступности сервера/
+| Получение статуса доступности сервера
 ```
 Request: /api/serverStatus?token=test-key | token - токен авторизации
 200 Response: {"server": "Available"}
